@@ -1,9 +1,9 @@
 <template>
   <section>
-    <div class="container">
+    <div class="container mb-4">
       <div class="row d-flex justify-content-center">
         <card-album
-          class="col col-sm-2 col-md-4 col-lg-2 m-3 flex-wrap"
+          class="col col-sm-6 col-md-4 col-lg-2 m-3 flex-wrap"
           v-for="(album, index) in albums"
           :key="index"
           :album="album"
