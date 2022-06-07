@@ -14,6 +14,7 @@ export default {};
 header {
   background-color: var(--primary-color);
   padding: 0.625rem 0.625rem;
+  margin-bottom: 3.125rem;
   .logo img {
     max-width: 3.125rem;
   }
