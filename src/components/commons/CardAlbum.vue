@@ -1,7 +1,7 @@
 <template>
   <div class="album">
-    <img src="https://via.placeholder.com/300" alt="" />
-    <h2>Titolo Album</h2>
+    <img :src="album.poster" alt="" />
+    <h2>{{ album.title }}</h2>
     <div>Nome della Band</div>
     <span>Anno Uscita</span>
   </div>

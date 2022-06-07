@@ -2,7 +2,12 @@
   <section>
     <div class="container">
       <div class="row">
-        <card-album class="col_custom" />
+        <card-album
+          class="col_custom"
+          v-for="(album, index) in albums"
+          :key="index"
+          :album="album"
+        />
       </div>
     </div>
   </section>
