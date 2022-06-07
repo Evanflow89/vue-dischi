@@ -1,15 +1,19 @@
 <template>
   <section>
     <div class="container">
-      <div class="row"></div>
+      <div class="row">
+        <card-album />
+      </div>
     </div>
   </section>
 </template>
 
 <script>
 import axios from "axios";
+import CardAlbum from "../commons/CardAlbum.vue";
 
 export default {
+  components: { CardAlbum },
   name: "SectionAlbums",
   data() {
     return {
