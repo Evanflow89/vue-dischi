@@ -31,7 +31,7 @@ export default {
       .get("https://flynn.boolean.careers/exercises/api/array/music")
       .then((response) => {
         // handle success
-        this.albums = response.response.data;
+        this.albums = response.data.response;
       })
       .catch((error) => {
         // handle error

@@ -1,9 +1,9 @@
 <template>
   <div class="album">
-    <img :src="album.poster" alt="" />
+    <img :src="album.poster" :alt="album.title" />
     <h2>{{ album.title }}</h2>
-    <div>Nome della Band</div>
-    <span>Anno Uscita</span>
+    <div>{{ album.author }}</div>
+    <span>{{ album.year }}</span>
   </div>
 </template>
 
