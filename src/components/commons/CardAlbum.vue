@@ -1,6 +1,6 @@
 <template>
   <div class="album">
-    <img :src="album.poster" :alt="album.title" />
+    <img class="img-fluid" :src="album.poster" :alt="album.title" />
     <h2>{{ album.title }}</h2>
     <div>{{ album.author }}</div>
     <span>{{ album.year }}</span>

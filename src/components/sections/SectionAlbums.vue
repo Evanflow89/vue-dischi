@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <card-album
-          class="col_custom"
+          class="col-lg-2 m-4 flex-wrap"
           v-for="(album, index) in albums"
           :key="index"
           :album="album"
@@ -42,7 +42,4 @@ export default {
 </script>
 
 <style lang="scss">
-.col_custom {
-  width: calc(100% / 5 - 10px);
-}
 </style>
