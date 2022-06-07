@@ -18,6 +18,7 @@ export default {
 
 <style lang="scss">
 .album {
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 </style>

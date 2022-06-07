@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="row">
-        <card-album />
+        <card-album class="col_custom" />
       </div>
     </div>
   </section>
@@ -36,5 +36,8 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+.col_custom {
+  width: calc(100% / 5 - 10px);
+}
 </style>
