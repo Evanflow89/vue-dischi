@@ -2,7 +2,7 @@
   <div>
     <form class="d-flex" @submit.prevent="$emit('searching', selectValue)">
       <select name="select-genre" id="genre" v-model="DataShared.selectValue">
-        <option value="all">All</option>
+        <option value="">All</option>
         <option value="rock">Rock</option>
         <option value="pop">Pop</option>
         <option value="jazz">Jazz</option>
