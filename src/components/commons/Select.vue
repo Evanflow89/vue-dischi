@@ -12,8 +12,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Select-bar",
+};
 </script>
 
-<style>
+<style lang="scss">
+select {
+  width: 12.5rem;
+  margin-right: 1.25rem;
+}
 </style>
